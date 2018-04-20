@@ -9,6 +9,6 @@ function updatePlaylist (playlist, Name, Title){
   playlist[Name] = 'Title'
 }
 
-function removeFromPlaylist (playlist, Miyuki) {
-  delete playlist.Miyuki;
+function removeFromPlaylist (obj, key) {
+  delete obj.key;
 }
