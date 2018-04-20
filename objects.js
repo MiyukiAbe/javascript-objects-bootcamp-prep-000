@@ -4,6 +4,6 @@ var playlist = {
 
 
 
-function updatePlaylist () {
-  playlist[Name] = 'Phil Ochs'
+function updatePlaylist (playlis, Name, Title){
+  playlist[Name] = 'Title'
 }
