@@ -9,7 +9,7 @@ function updatePlaylist (playlist, Name, Title){
   playlist[Name] = 'Title'
 }
 
-function removeFromPlaylist (playlist, Name) {
-  delete playlist.Name;
-  return playlist.Name;
+function removeFromPlaylist (playlist, artistName) {
+  delete playlist.artistName;
+  return playlist.artistName;
 }
