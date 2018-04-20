@@ -8,6 +8,6 @@ function updatePlaylist (playlis, Name, Title){
   playlist[Name] = 'Title'
 }
 
-function removeFromPlaylist(playlist, Name) {
+function removeFromPlaylist(playlist, Name, Title) {
   delete playlist.Name;
 }
