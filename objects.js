@@ -6,7 +6,7 @@ var playlist = {
 
 
 function updatePlaylist (playlist, Name, Title){
-  playlist.Name = 'Title'
+  playlist[Name] = 'Title'
 }
 
 function removeFromPlaylist (playlist, Name) {
