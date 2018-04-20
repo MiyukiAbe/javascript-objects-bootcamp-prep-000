@@ -7,3 +7,7 @@ var playlist = {
 function updatePlaylist (playlis, Name, Title){
   playlist[Name] = 'Title'
 }
+
+function removeFromPlaylist(playlist, Name, Title) {
+  
+}
