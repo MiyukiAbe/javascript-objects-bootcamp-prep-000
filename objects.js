@@ -10,5 +10,5 @@ function updatePlaylist (playlist, Name, Title){
 }
 
 function removeFromPlaylist (playlist, artistName) {
-  delete obj.key;
+  delete meals.dinner;
 }
