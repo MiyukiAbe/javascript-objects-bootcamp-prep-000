@@ -5,7 +5,7 @@ var playlist = {
 
 
 
-function updatePlaylist (playlis, Name, Title){
+function updatePlaylist (playlist, Name, Title){
   playlist[Name] = 'Title'
 }
 
