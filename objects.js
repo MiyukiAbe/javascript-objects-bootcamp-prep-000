@@ -8,6 +8,7 @@ function updatePlaylist (playlis, Name, Title){
   playlist[Name] = 'Title'
 }
 
-function removeFromPlaylist(playlist, Name, Title) {
-  
+function removeFromPlaylist(playlist, Name) {
+  delete playlist.Name
+  return playlist
 }
